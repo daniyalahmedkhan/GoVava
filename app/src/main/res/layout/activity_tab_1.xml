@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.daniyal.govava.TabActivity_1" >
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/bg"
+
+        android:layout_marginTop="60dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/search_bar"
+            android:focusableInTouchMode="false"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint=" \tSearch by product"
+            android:drawableLeft="@mipmap/searchbar_search_icon"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:drawableRight="@mipmap/searchbar_cross_icon"
+
+            />
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
